@@ -9,7 +9,7 @@ export default defineConfig({
 		// Get rid of the CORS error
 		proxy: {
 			"/api": {
-				target: "http://reliquiaappbr.vercel.app:5000",
+				target: "http://aschopaa.com.br:5000",
 				changeOrigin: true,
 				secure: false,
 			},
