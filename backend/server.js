@@ -45,4 +45,4 @@ if (process.env.NODE_ENV === "production") {
 	});
 }
 
-server.listen(PORT, () => console.log(`Server started at http://reliquiaappbr.vercel.app:${PORT}`));
+server.listen(PORT, () => console.log(`Server started at http://aschopaa.com.br:${PORT}`));
