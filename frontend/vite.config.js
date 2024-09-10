@@ -9,7 +9,7 @@ export default defineConfig({
 		// Get rid of the CORS error
 		proxy: {
 			"/api": {
-				target: "http://76.76.21.142s:5000",
+				target: "http://76.76.21.142:5000",
 				changeOrigin: true,
 				secure: false,
 			},
